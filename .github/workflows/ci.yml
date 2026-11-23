@@ -25,3 +25,10 @@ jobs:
 
       - name: Validar HTML
         run: npx htmlhint index.html
+
+
+      - name: Validar HTML
+        run: npx htmlhint index.html
+        
+      - name: Validar links
+        run: npx linkinator . --recurse --skip www.linkedin.com
