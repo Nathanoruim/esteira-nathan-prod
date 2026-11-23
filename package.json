@@ -1,0 +1,14 @@
+
+{
+  "name": "portfolio-devops",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "htmlhint index.html",
+    "check-links": "linkinator index.html"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "linkinator": "^6.1.0"
+  }
+}
